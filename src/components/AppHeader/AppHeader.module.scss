@@ -1,0 +1,53 @@
+.headerContainer {
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    border-bottom: 1px solid #D7DDE9;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logoContainer {
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.438px;
+}
+
+.welcomeTitle {
+    color: #000;
+    font-size: 1rem;
+
+    line-height: normal;
+
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+
+        letter-spacing: -0.03rem;
+    }
+}
+
+.dateHeader {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (min-width: 768px) {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02rem;
+    }
+}

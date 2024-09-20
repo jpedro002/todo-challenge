@@ -1,0 +1,80 @@
+.taskLineContainer {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+    border-radius: 0.5rem;
+    border: 1px dashed #D7DDE9;
+
+    &:hover {
+        background: #F7F9FD;
+    }
+
+    .checkbox {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 0.25rem;
+        border: 1px solid #B0BBD1;
+        background: #FFF;
+
+
+        position: relative;
+
+
+
+
+        .checkboxIcon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #0796D3;
+
+        }
+
+
+    }
+
+    .checkbox[data-state="checked"] {
+        background-color: #A0DCF6;
+        border: 1px solid #0796D3;
+    }
+
+
+
+
+
+    h3 {
+        width: 100%;
+        color: #000;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02rem;
+    }
+
+    h3[data-state=true] {
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02rem;
+        text-decoration-line: strikethrough;
+        text-decoration: line-through;
+    }
+
+    .trashIcon {
+
+        color: #D7DDE9;
+
+        &:hover {
+            color: red;
+            transition: all 0.3s ease-in;
+        }
+    }
+}

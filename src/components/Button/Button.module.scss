@@ -1,0 +1,42 @@
+.button {
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: none;
+    max-width: 28.125rem;
+    cursor: pointer;
+
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02rem;
+}
+
+.primary-blue {
+    background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+    color: white;
+}
+
+.secondary-blue {
+    background: #E7EEFB;
+    color: #000;
+}
+
+.primary-red {
+    background: linear-gradient(90deg, #D30707 0%, #F05353 68.65%);
+    color: white;
+}
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+}

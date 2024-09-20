@@ -1,0 +1,20 @@
+.layout {
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 1fr;
+
+
+    padding: 1.5rem;
+    padding-bottom: 1.5625rem;
+    gap: 24px;
+    width: 100vw;
+
+    max-width: 2560px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        gap: 2.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+}
